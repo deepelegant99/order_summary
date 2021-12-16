@@ -1,0 +1,37 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+$paleBlue: hsl(225, 100%, 94%);
+$brightBlue: hsl(245, 75%, 52%);
+
+$veryPaleBlue: hsl(225, 100%, 98%);
+$desaturatedBlue: hsl(224, 23%, 55%);
+$darkBlue: hsl(223, 47%, 23%);
+
+$red-hat-display: "Red Hat Display", serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  font-size: 16px;
+  font-family: $red-hat-display;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.card {
+  width: 350px;
+  height: 700px;
+  border-radius: 1em;
+
+  .hero-image{
+      width:350px;
+      border-radius: 1em 1em 0em 0em;
+  }
+}
