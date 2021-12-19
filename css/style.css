@@ -25,7 +25,7 @@ body {
 
 .card {
   width: 350px;
-  height: 700px;
+  height: 500px;
   border-radius: 1em;
   background-color: #f5f7ff;
 }
@@ -33,5 +33,94 @@ body {
 .card .hero-image {
   width: 350px;
   border-radius: 1em 1em 0em 0em;
+}
+
+.card .container h3 {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+}
+
+.card .container .value_message {
+  font-weight: 500;
+  font-size: 0.9em;
+  width: 250px;
+  margin: 0 auto 1em auto;
+  text-align: center;
+}
+
+.card .container .PaymentPlan {
+  background-color: desaturatedBlue;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.7em;
+}
+
+.card .container .PaymentPlan .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .container .PaymentPlan .left img {
+  width: 3em;
+  height: 3em;
+  display: inline-block;
+}
+
+.card .container .PaymentPlan .left .leftmessage {
+  display: inline-block;
+}
+
+.card .container .PaymentPlan .left .leftmessage h3 {
+  font-size: 1em;
+}
+
+.card .container .PaymentPlan .left .leftmessage p {
+  font-size: 1.1em;
+}
+
+.card .container .PaymentPlan .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .container .gotopayment {
+  display: block;
+  margin: auto;
+  padding: 1.3em auto 1.3em auto;
+  width: 75%;
+  height: 2.7em;
+  font-weight: 700;
+  font-size: 0.6em;
+  color: white;
+  background-color: #3829e0;
+  border-radius: 0.6em;
+}
+
+.card .container .gotocancel {
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.9em;
+  margin: 1em auto 1em auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -16,10 +16,9 @@ $red-hat-display: "Red Hat Display", serif;
 }
 
 body {
-  
   font-size: 16px;
   font-family: $red-hat-display;
-  background-color: $paleBlue;;   
+  background-color: $paleBlue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,16 +27,84 @@ body {
 }
 .card {
   width: 350px;
-  height: 700px;
+  height: 500px;
   border-radius: 1em;
   background-color: $veryPaleBlue;
 
-  .hero-image{
-      width:350px;
-      border-radius: 1em 1em 0em 0em;
+  .hero-image {
+    width: 350px;
+    border-radius: 1em 1em 0em 0em;
   }
 
-  .container{
-    //background-color: $veryPaleBlue;
+  .container {
+    h3 {
+      font-weight: 700;
+      font-size: 1.5em;
+      text-align: center;
+      margin-top: 1em;
+      margin-bottom: 0.8em;
+    }
+
+    .value_message {
+      font-weight: 500;
+      font-size: 0.9em;
+      width: 250px;
+      margin: 0 auto 1em auto;
+      text-align: center;
+    }
+
+    .PaymentPlan {
+      background-color: desaturatedBlue;
+      width: 75%;
+      margin: auto;
+      margin-bottom: 1em;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.7em;
+
+
+      .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 3em;
+          height: 3em;
+          display: inline-block;
+        }
+        .leftmessage {
+          display: inline-block;
+          h3{
+            font-size: 1em;
+          }
+          p{
+            font-size: 1.1em;
+          }
+        }
+      }
+      .right {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .gotopayment {
+      display: block;
+      margin: auto;
+      padding: 1.3em auto 1.3em auto;
+      width: 75%;
+      height: 2.7em;
+      font-weight: 700;
+
+      font-size: 0.6em;
+      color: white;
+      background-color: $brightBlue;
+      border-radius: 0.6em;
+    }
+    .gotocancel {
+      text-align: center;
+      font-weight: 500;
+      font-size: 0.9em;
+      margin: 1em auto 1em auto;
+    }
   }
 }
