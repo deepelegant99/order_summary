@@ -9,6 +9,7 @@
 body {
   font-size: 16px;
   font-family: "Red Hat Display", serif;
+  background-color: #e0e8ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,6 +27,7 @@ body {
   width: 350px;
   height: 700px;
   border-radius: 1em;
+  background-color: #f5f7ff;
 }
 
 .card .hero-image {

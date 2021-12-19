@@ -19,6 +19,7 @@ body {
   
   font-size: 16px;
   font-family: $red-hat-display;
+  background-color: $paleBlue;;   
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,9 +30,14 @@ body {
   width: 350px;
   height: 700px;
   border-radius: 1em;
+  background-color: $veryPaleBlue;
 
   .hero-image{
       width:350px;
       border-radius: 1em 1em 0em 0em;
+  }
+
+  .container{
+    //background-color: $veryPaleBlue;
   }
 }
